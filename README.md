@@ -15,7 +15,7 @@ Inspired by [RSKHB-Intech](https://rshb-intech.ru/rshb-intech)
 - [Local Run](#Local Run)
 - [Develop your Checks](#develop-your-checks)
   - [Write your Checks](#write-your-checks)
-  - [🛠️ AI-Powered Check Development](#checks-written-by-chatgpt)
+  - [🛠️ AI-Powered Check Development](#AI-Powered Check Development)
   - [Disabling Check](#disabling-checks)
   
 ## Usage
@@ -142,7 +142,7 @@ go run generate_checks.go
 The generator will add the Group and Checks to pkg/generated.
 Now you can run the Verifier. To call Checks from your Group, the Group name must be listed in the type flag (`--type common,service,java`).
 
-### 🛠️ AI-Powered Check Development
+### AI-Powered Check Development
 
 **Checks written by ChatGPT**
 
