@@ -12,10 +12,10 @@ Inspired by [RSKHB-Intech](https://rshb-intech.ru/rshb-intech)
 
 ## Contents
 - [Usage](#Usage)
-- [Local Run](#Local Run)
+- [Local Run](#local-run)
 - [Develop your Checks](#develop-your-checks)
   - [Write your Checks](#write-your-checks)
-  - [🛠️ AI-Powered Check Development](#AI-Powered Check Development)
+  - [🛠️ AI-Powered Check Development](#ai-powered-check-development)
   - [Disabling Check](#disabling-checks)
   
 ## Usage
@@ -64,7 +64,7 @@ Types of checks `--type` depends on the type of project, for example you can wri
 verifier --path ksxack/python-tg-bot --title python-tg-bot --name "Telegram Bot" --environment dev  --log-level debug --type common,python,service .
 ```
 
-## Local Run
+### Local Run
 
 If you need K8s integration:
 ```shell
