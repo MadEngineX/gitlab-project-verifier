@@ -52,7 +52,7 @@ GLOBAL OPTIONS:
 
 ```shell
 git clone https://gitlab.com/ksxack/weather-bot.git
- cd weather-bot/
+cd weather-bot/
 
 verifier --path ksxack/weather-bot --title weather-bot --name "Weather Bot" --environment dev  --log-level debug --type common,golang,service .
 ## Where --path is $CI_PROJECT_PATH,  --title is $CI_PROJECT_NAME, etc
